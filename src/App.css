@@ -9,10 +9,11 @@
   flex-shrink: 0;
   padding: 30px;
   text-align: center;
+  color :aliceblue;
 }
 
 .rightPort{
-  background-color: gray;
+  background-color: #b2dfdb;
   width: 100%;
   flex-grow: 1;
   padding: 4rem;
@@ -22,7 +23,7 @@
   width: 150px;
   height: 150px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #d69851;
   border-radius: 50%;
   overflow: hidden;
   padding: 1rem;
