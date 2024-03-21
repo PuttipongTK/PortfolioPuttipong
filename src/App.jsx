@@ -12,22 +12,22 @@ function App() {
       <div className="leftPort">
         <ImageProfile image="/src/assets/react.svg" />
 
-        <Title title="Thanadet Kaewsri (Matt)">
-          <h3>ตำแหน่ง : Frontend</h3>
+        <Title title="Puttipong Thanakiatmongkol (Mark)">
+          <h3>ตำแหน่ง : Fullstack</h3>
         </Title>
 
         <Title title="Contact">
      
           <p>วันที่ปัจจุบัน: {moment().format("D MMM YYYY")}</p>
-          <p>วันเกิด: {moment("1994/07/01").format("D MMM YYYY")}</p>
+          <p>วันเกิด: {moment("2002/02/04").format("D MMM YYYY")}</p>
           <p style={{ display: hide ? 'none': 'block'}} >
-            Tel : +66877543002
+            Tel : +66892316682
           </p>
           <button onClick={() => setHide(!hide)}>
             {hide ? 'Show': 'Hide'}
           </button>
-          <p>Email : mattssru@gmail.com</p>
-          <p>www.mattssru@gmail.com</p>
+          <p>Email : s64122202074@ssru.ac.th</p>
+          
         </Title>
     
         <Title title="Education">
@@ -38,19 +38,22 @@ function App() {
 
       <div className="rightPort">
         <Title title="Profile">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas natus soluta debitis nihil placeat, molestiae quae distinctio. Corporis dolores sit similique vitae dignissimos rerum saepe dolorem laboriosam rem impedit.</p>
+          <p>สวัสดีครับ ผมชอบเรียนรู้สิ่งใหม่ๆอยู่เสมอและไม่เคยหยุดพัฒนาตนเอง อยากร่วมงานกับบริษัทนี้เพราะผมประทับใจในในบริษัทและผมสามารถทำงานร่วมกันเป็นกลุ่มได้เป็นอย่างดี</p>
         </Title>
 
         <Title title="Work Experience">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veritatis eligendi cumque, laborum dolore error at, excepturi eum distinctio iste facere obcaecati natus impedit eaque eveniet nulla? Cupiditate, blanditiis in?</p>
+          <p>ดูแลห้องคอมพิวเตอร์ในสาขา ITช่วยแก้ไขปัญหาคอมพิวเตอร์ที่มีปัญหาในด้านฮาร์ดแวร์ , ซอฟต์แวร์ติดตั้งโปรแกรมที่ใช้ในการเรียน , ลง Windowติดตั้งเปลี่ยนอุปกรณ์ภายในห้องเรียน                      อัพเกรด SSD , Ram , VGA</p>
         </Title>
 
         <Title title="Skills">
           <p>HTML / CSS / JS</p>
           <p>React.js</p>
           <p>Next.js</p>
-          <p>Vue.js</p>
-          <p>Git</p>asd
+          <p>Visual Code</p>
+          <p>Github</p>
+          <p>Microsoft Office</p>
+          <p>Photoshop</p>
+          <p>Canva</p>
         </Title>
       </div>
     </main>
